@@ -11,3 +11,5 @@
 #お願い
 誰かWindowsに移植してください。おねがいします。
 
+#元ネタ
+http://twitpic.com/az008j
