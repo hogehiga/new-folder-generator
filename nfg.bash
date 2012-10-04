@@ -39,7 +39,7 @@ else
     d="."
 fi
 
-for i in `sort -R adj`
+for i in $(sort -R $(dirname $0)/adj)
 do
     if [[ $n < 1 ]]; then
         exit 0;
