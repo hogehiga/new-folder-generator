@@ -1,15 +1,15 @@
-#これはなに？
-様々な種類の新しいフォルダを作ります
+#What is this?
+Create different kinds of "new folder".
 
-#使い方
-- `./nfg.bash` カレントディレクトリに新しいフォルダを3つ作ります
+#How to use
+- `./nfg.bash` Makes three new folders in current directory.
 
-- `./nfg.bash -n 10` カレントディレクトリに新しいフォルダを10個作ります
+- `./nfg.bash -n 10` Makes ten new folders in current directory.
 
-- `./nfg.bash -d /tmp` /tmpに新しいフォルダを3つ作ります
+- `./nfg.bash -d /tmp` Makes new folders in /tmp.
 
-#お願い
-誰かWindowsに移植してください。おねがいします。
+#Please
+Please port to Windows.
 
-#元ネタ
+#Source
 http://twitpic.com/az008j
