@@ -39,11 +39,20 @@ else
     d="."
 fi
 
-for i in $(sort -R $(dirname $0)/adj)
+if [[ $LANG =~ ja_JP.* ]]; then
+    ADJ=$(dirname $0)/adj
+else
+    ADJ=$(dirname $0)/adjectives.txt
+fi
+for i in $(sort -R "$ADJ")
 do
     if [[ $n < 1 ]]; then
         exit 0;
     fi
-    mkdir $d/"${i}フォルダ"
+    if [[ $LANG =~ ja_JP.* ]]; then
+        mkdir $d/"${i}フォルダ"
+    else
+        mkdir $d/"${i} folder"
+    fi
     let $((n = $n - 1))
 done
